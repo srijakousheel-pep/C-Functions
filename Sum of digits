@@ -1,0 +1,19 @@
+#include<stdio.h>
+void sum(int n);
+void main()
+{
+int n;
+scanf("%d",&n);
+sum(n);
+}
+void sum(int n)
+int n,nsave,digit,sum;
+nasave=n;
+sum=0;
+for(n>0;n=n/10)
+{
+digit=n%10;
+sum=sum+digit;
+}
+printf("Sum is %d",sum);
+}
