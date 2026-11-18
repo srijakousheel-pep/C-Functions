@@ -1,0 +1,14 @@
+#include<stdio.h>
+void stddetails()
+void main()
+{
+printf("Main Starts");
+stddetails();
+printf("Main Ends");
+}
+void stddetails()
+{
+printf("Kousheel");
+printf("Sec-3");
+printf("CSE");
+}
