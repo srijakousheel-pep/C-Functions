@@ -1,0 +1,16 @@
+#include<stdio.h>
+void avg(int x,int y,int z);
+void main()
+{
+int a,b,c;
+printf("Enter values:");
+scanf("%d,%d,%d",&a,&b,&c);
+avg(a,b,c);
+return 0;
+}
+void avg(int x,int y,int z)
+{
+int average;
+average=(x+y+z)/3;
+printf("%d is Average;average);
+}
